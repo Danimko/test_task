@@ -17,6 +17,17 @@
       flex-wrap: wrap;
 }
 
+@media (max-width: 1199px) {
+  .menu__list {
+    display: none;
+  }
+
+  .menu {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
 .menu__item {
   display: inline-block;
   margin: 0 2rem;
@@ -42,6 +53,11 @@ address {
   text-align: center;
 }
 
+@media (max-width: 1199px) {
+  .contacts {
+    display: none;
+  }
+}
 .contacts__title {
   font-weight: normal;
   font-size: 1.125rem;
@@ -57,4 +73,9 @@ address {
   color: #212D55;
   font-weight: bold;
   font-size: 1.25rem;
+}
+
+.logo {
+  width: 12rem;
+  height: 5.875rem;
 }

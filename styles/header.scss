@@ -6,17 +6,21 @@
     // justify-content: space-between;
     margin: 0 auto;
 }
- .menu{
+.menu{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: auto 5rem;
     flex-wrap: wrap;
  }
-.menu__list{
-    // display: flex;
-    // justify-content: space-between;
-    // <img src="./img/IMG__territory.png" alt="" class="galery__img">
+
+@media (max-width:1199px){
+    .menu__list{
+        display: none;
+    }
+    .menu{
+        justify-content: space-between;
+    }
 }
 .menu__item{
     display: inline-block;
@@ -40,6 +44,11 @@ address{
     font-style: normal;
     text-align: center;
 }
+@media (max-width:1199px){
+    .contacts{
+        display: none;
+    }
+}
 .contacts__title{
     font-weight: normal;
     font-size: 1.125rem;
@@ -56,3 +65,10 @@ address{
     font-weight: bold;
     font-size: 1.25rem;
 }
+
+.logo{
+    width: 12rem;
+    height: 5.875rem;
+}
+
+
