@@ -1,0 +1,47 @@
+.hero {
+  background-image: url(../img/BG__hero.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 100vh;
+}
+
+.hero__container {
+  height: 100%;
+}
+
+.hero__text-content {
+  text-align: center;
+  margin-top: 12rem;
+}
+
+.hero__title {
+  font-size: 60px;
+  font-weight: normal;
+}
+
+.hero__subtitle {
+  font-size: 32px;
+  font-weight: normal;
+}
+
+.hero__price {
+  font-family: "Montserrat";
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.button__price {
+  display: block;
+  margin: 0 auto;
+  background: #31BEF4;
+  border: none;
+  border-radius: 10px;
+  font-family: "Raleway";
+  font-size: 22px;
+  font-weight: 600;
+  color: #fff;
+  -webkit-box-shadow: 0px 6px 0px #2CABDC;
+          box-shadow: 0px 6px 0px #2CABDC;
+  padding: 15px 25px;
+  cursor: pointer;
+}

@@ -1,0 +1,81 @@
+html{
+    font-size: 16px;
+}
+
+html,
+body{
+    height: 100%;
+}
+body{
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-weight: normal;
+    font-family: 'Raleway';
+    color: #212D55;
+    box-sizing: border-box;
+}
+
+// body{
+//     line-height: 1.42;
+//     -webkit-font-smoothing: antialiased;
+//     -moz-osx-font-smoothing: grayscale;
+//     position: relative;
+// }
+
+// .wrapper{
+//     position: relative;
+//     width: 100%;
+//     min-height: 100%;
+// }
+
+.container{
+    margin: 0 auto;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+  margin-top: 0;
+}
+
+// ul{
+//     padding: 0;
+//     margin: 0;
+//     li{
+//         list-style: none;
+//     }
+// }
+
+p{
+    padding: 0;
+    margin: 0;
+}
+
+// footer{
+//     position: relative;
+//     width: 100%;
+// }
+
+// *{
+//     box-sizing: border-box;
+// }
+
+// a{
+//     color:inherit;
+// }
+
+// img{
+//     display: block;
+//     // min-width: 100%;
+// }
+
+
+////////////////////////////
+
+

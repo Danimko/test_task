@@ -1,0 +1,60 @@
+.header {
+  height: 5.875rem;
+  margin: 0 auto;
+}
+
+.menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto 5rem;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.menu__item {
+  display: inline-block;
+  margin: 0 2rem;
+}
+
+.menu__link {
+  text-decoration: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: #212D55;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.menu__link:hover {
+  color: #31BEF4;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+address {
+  font-style: normal;
+  text-align: center;
+}
+
+.contacts__title {
+  font-weight: normal;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+.contacts__phone {
+  font-family: "Montserrat";
+  text-decoration: none;
+  color: #212D55;
+  font-weight: bold;
+  font-size: 20px;
+}

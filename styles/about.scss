@@ -1,0 +1,119 @@
+.about{
+    height: 100vh;
+    margin-top: 5rem;
+}
+.about__title{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.about__galery{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+}
+
+.galery__tabs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: space-between;
+    justify-content: flex-start;
+}
+.galery__tab{
+    display: inline-block;
+    height: 6.5rem;
+    width: 12rem;
+    background: #F9FCFD;
+    box-shadow: 0px 5px 15px rgba(33, 45, 85, 0.2);
+    border-radius: 10px;
+    margin-right: 2.3rem;
+}
+.galery__link{
+    background-color: #fff;
+    height: 72px;
+    width: 164px;
+    margin: 1rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 5px 15px rgba(33, 45, 85, 0.1);
+    font-size: 22px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.galery{
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: 53rem 1fr;
+    grid-template-rows: 11.9rem 11.9rem 11.9rem;
+    gap: 10px;
+}
+
+.galery__item{
+    margin: auto;
+
+}
+.galery__item--1{
+    grid-column: 1/2;
+    grid-row: 1/4;
+    background-image: url(../img/IMG__territory.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 848px;
+    height: 573px;
+}
+
+.galery__item--2{
+    grid-column: 2/3;
+    height: 171px;
+    width: 262px;
+}
+
+.galery__item--3{
+    grid-column: 2/3;
+    height: 171px;
+    width: 262px;
+}
+
+.galery__item--4{
+    grid-column: 2/3;
+    height: 171px;
+    width: 262px;
+}
+
+.galery__text{
+    background-color: #fff;
+    width: 538px;
+    height: 300px;
+    border-radius: 10px;
+    margin: 15rem 1rem 1rem 2rem;
+    h3{
+        color: #212D55;
+        font-weight: 600;
+        font-size: 22px;
+        padding: 1rem 0rem 0rem 1rem;
+    }
+    p{
+        color: #656D89;
+        font-size: 16px;
+        padding: 0rem 1rem 1rem 1rem;
+    }
+}
+// .galery__text--2{
+//     margin: -19.75rem 1rem 1rem 2rem;
+// }
+
+// .galery__text--3{
+//     margin: -19.75rem 1rem 1rem 2rem;
+// }
+
+// .galery__text--4{
+//     margin: -19.75rem 1rem 1rem 2rem;
+// }
+.galery__text--none{
+    display: none;
+}

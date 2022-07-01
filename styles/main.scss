@@ -1,0 +1,12 @@
+//colors
+$blue: #31BEF4;
+$mainclr: #212D55;
+
+//setups
+@import "https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css";
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap";
+
+@import url(./layout.css);
+@import url(./hero.css);
+@import url(./header.css);
+@import url(./about.css);
