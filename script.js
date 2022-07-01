@@ -48,3 +48,11 @@ button4.addEventListener('click', function () {
 
     
 });
+
+
+{/* <div class="galery__item galery__item--2"><img src="./img/IMG__2.png" alt="" class="galery__img">
+                        </div>
+                        <div class="galery__item galery__item--3"><img src="./img/IMG__3.png" alt="" class="galery__img">
+                        </div>
+                        <div class="galery__item galery__item--4"><img src="./img/IMG__4.png" alt="" class="galery__img">
+                        </div> */}
