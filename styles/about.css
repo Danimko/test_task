@@ -138,13 +138,6 @@
         flex-wrap: wrap;
   }
 }
-@media (max-width: 375px) {
-  .galery {
-    display: block;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-}
 .galery__item {
   margin: auto;
 }
@@ -152,7 +145,6 @@
 @media (max-width: 768px) {
   .galery {
     margin: auto 1rem;
-    display: -webkit-box;
   }
 }
 .galery__item--1 {
@@ -191,6 +183,11 @@
   background-size: 100%;
 }
 
+@media (max-width: 375px) {
+  .galery__item--3 {
+    display: none;
+  }
+}
 .galery__item--4 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;

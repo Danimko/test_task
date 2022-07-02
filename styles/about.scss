@@ -87,12 +87,6 @@
     flex-wrap: wrap;
     }
 }
-@media (max-width:375px){
-    .galery{
-    display: block;
-    flex-wrap: wrap;
-    }
-}
 
 .galery__item{
     margin: auto;
@@ -101,7 +95,6 @@
 @media (max-width:768px){
     .galery{
     margin: auto 1rem;
-    display: -webkit-box;
     }
 }
 .galery__item--1{
@@ -130,6 +123,11 @@
     background-image: url(../img/IMG__3.png);
     background-repeat: no-repeat;
     background-size: 100%;
+}
+@media (max-width:375px){
+    .galery__item--3{
+    display: none;
+    }
 }
 
 .galery__item--4{
