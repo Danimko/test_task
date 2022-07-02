@@ -4,6 +4,11 @@
   }
 }
 .burger-wrap {
+  display: none;
+  right: -120%;
+}
+
+.burger-wrap.open {
   background-color: #212D55;
   height: 100vh;
   width: 100vw;
@@ -11,10 +16,6 @@
   position: fixed;
   color: #fff;
   font-size: 1.8rem;
-  right: -120%;
-}
-
-.burger-wrap.open {
   right: 0;
 }
 
