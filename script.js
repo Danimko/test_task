@@ -1,3 +1,4 @@
+////////////////////// Tabs
 const button1 = document.querySelector('.galery__tab--1');
 const button2 = document.querySelector('.galery__tab--2');
 const button3 = document.querySelector('.galery__tab--3');
@@ -49,10 +50,42 @@ button4.addEventListener('click', function () {
     
 });
 
+////////////////// Burger menu open
+const gamb = document.querySelector('#gamb');
+const burger = document.querySelector('#burg');
+const darkburg = document.querySelector('#gamb--dark');
 
-{/* <div class="galery__item galery__item--2"><img src="./img/IMG__2.png" alt="" class="galery__img">
-                        </div>
-                        <div class="galery__item galery__item--3"><img src="./img/IMG__3.png" alt="" class="galery__img">
-                        </div>
-                        <div class="galery__item galery__item--4"><img src="./img/IMG__4.png" alt="" class="galery__img">
-                        </div> */}
+gamb.addEventListener('click', function (e) {
+    e.preventDefault(e);
+    burger.classList.add("open");
+});
+
+
+
+darkburg.addEventListener('click', function (e){
+    e.preventDefault(e);
+    burger.classList.remove("open");
+});
+
+//////////////// Burger menu list
+
+const menu1 = document.querySelector('#menu1');
+const menu_item1 = document.querySelector(".burger-menu__sub-list");
+
+menu1.addEventListener('click', function (){
+    menu_item1.classList.toggle("on1");
+});
+
+const menu2 = document.querySelector('#menu1-1');
+const menu_item2 = document.querySelector(".burger-menu__sub-list--yabl");
+
+menu2.addEventListener('click', function (){
+    menu_item2.classList.toggle("on2");
+});
+
+const menu3 = document.querySelector('#menu2');
+const menu_item3 = document.querySelector(".burger-list--howbuy");
+
+menu3.addEventListener('click', function (){
+    menu_item3.classList.toggle("on3");
+});

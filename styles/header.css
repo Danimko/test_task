@@ -26,6 +26,7 @@
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    margin: auto 1rem;
   }
 }
 .menu__item {
@@ -66,6 +67,16 @@ address {
   margin-top: 0.5rem;
   cursor: pointer;
 }
+.contacts__title--light{
+  font-weight: normal;
+  font-size: 2rem;
+  font-weight: 600;
+  text-decoration: underline;
+  margin-top: 1.8rem;
+  cursor: pointer;
+  text-align: end;
+  
+  }
 
 .contacts__phone {
   font-family: "Montserrat";
@@ -75,7 +86,15 @@ address {
   font-size: 1.25rem;
 }
 
-.logo {
+.contacts__phone--light {
+  font-family: "Montserrat";
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.logo__img {
   width: 12rem;
   height: 5.875rem;
 }

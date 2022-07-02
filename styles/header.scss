@@ -20,6 +20,7 @@
     }
     .menu{
         justify-content: space-between;
+        margin: auto 1rem;
     }
 }
 .menu__item{
@@ -65,10 +66,18 @@ address{
     font-weight: bold;
     font-size: 1.25rem;
 }
+.contacts__phone--light{
+    font-family: 'Montserrat';
+    text-decoration: none;
+    color:#fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
 
-.logo{
+.logo__img{
     width: 12rem;
     height: 5.875rem;
 }
+
 
 

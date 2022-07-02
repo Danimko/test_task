@@ -9,11 +9,53 @@
 </head>
 <body>
     <div class="wrapper">
+        <div class="burger-wrap" id="burg">
+            <nav class="burger-header">
+                <div><a href="/" class="burger-logo"><img class="burger-logo__img" src="./img/Logo__dark.svg" alt="logo"></a></div>
+                <div class="gamburger--dark" id="gamb--dark"><a href="" class="gamburger__link--dark" ><img src="./img/X-button.svg" alt=""></a></div>
+            </nav>
+            
+            <ul class="burger-menu" id="burger-menu">
+            <li class="burger-menu__item" ><a id="menu1">Жилые комплексы</a>  
+                <ul class="burger-menu__sub-list">
+                    <ul class="burger-menu__sub-item">ЖК Космос</ul>
+                    <ul class="burger-menu__sub-item"> <a id="menu1-1">ЖК Яблоновский</a> 
+                        <ul class="burger-menu__sub-list--yabl">
+                            <li class="burger-menu__sub-item--yabl">Преимущества</li>
+                            <li class="burger-menu__sub-item--yabl">Инфраструктура</li>
+                            <li class="burger-menu__sub-item--yabl">Планировка</li>
+                            <li class="burger-menu__sub-item--yabl">Отделка</li>
+                            <li class="burger-menu__sub-item--yabl">Описание</li>
+                            <li class="burger-menu__sub-item--yabl">Контакты</li>
+                            <li class="burger-menu__sub-item--yabl">Документация</li>
+                        </ul>
+                    </ul>
+                    <ul class="burger-menu__sub-item">ЖК на Шоссейной</ul>
+                    <ul class="burger-menu__sub-item">ЖК Солнечная</ul>
+                </ul>
+            </li>
+        <li class="burger-menu__item">О компании</li>
+        <ul class="burger-menu__item" > <a id="menu2">Как купить</a>
+            <ul class="burger-list--howbuy">
+                <li class="burger-menu__item--howbuy">Ипотека</li>
+                <li class="burger-menu__item--howbuy">Военная ипотека</li>
+                <li class="burger-menu__item--howbuy">Материнский капитал</li>
+                <li class="burger-menu__item--howbuy">Наличный рассчет</li>
+                <li class="burger-menu__item--howbuy">Рассрочка</li>
+            </ul> 
+            </ul>
+        <ul class="burger-menu__item">Контакты</ul>
+        <div class="address">
+            <a href="tel:+79183774810" class="contacts__phone--light">+7 (918) 377-48-10</a>
+            <div class="contacts__title--light">Заказать звонок</div>
+        </div>
+        </ul>
+    </div>
         <section class="hero">
             <div class="container hero__container">
                 <header class="header">
                  <nav class="menu">
-                    <a href="/" class="logo"><img src="./img/Logo__main.svg" alt="logo"></a>  
+                    <a href="/" class="logo"><img class="logo__img" src="./img/Logo__main.svg" alt="logo"></a>  
                     <ul class="menu__list">
                         <li class="menu__item">
                             <a href="#" class="menu__link">Жилые комплексы</a>
@@ -30,10 +72,13 @@
                     </ul>
                     <address class="contacts"><a href="tel:+79183774810" class="contacts__phone">+7 (918) 377-48-10</a>
                     <div class="contacts__title">Заказать звонок</div></address>
-                    <div class="gamburger"><a href="" class="gamburger__link"><img src="./img/gamburger.svg" alt=""></a></div>
+
+                    <div class="gamburger" id="gamb"><a href="" class="gamburger__link" ><img src="./img/gamburger.svg" alt=""></a></div>
+                        
                  </nav>
                  
                 </header>
+                
                 <div class="hero__content">
                    <div class="hero__text-content">
                     <h1 class="hero__title">Жилой Комплекс <strong>«Яблоновский»</strong></h1>

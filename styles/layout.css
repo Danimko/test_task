@@ -43,6 +43,14 @@ h6 {
   margin-top: 0;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
 p {
   padding: 0;
   margin: 0;
