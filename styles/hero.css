@@ -1,10 +1,3 @@
-.hero {
-  background-image: url(../img/BG__hero.png);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 100vh;
-}
-
 .hero__container {
   height: 100%;
 }
@@ -24,6 +17,11 @@
   font-weight: normal;
 }
 
+@media (max-width: 768px) {
+  .hero__title {
+    font-size: 2.8rem;
+  }
+}
 .hero__price {
   font-family: "Montserrat";
   font-size: 2.19rem;

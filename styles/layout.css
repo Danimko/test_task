@@ -27,6 +27,12 @@ body {
           box-sizing: border-box;
 }
 
+.wrapper {
+  background-image: url(../img/BG__hero.png);
+  background-repeat: no-repeat;
+  background-size: 120rem;
+}
+
 .container {
   margin: 0 auto;
   min-width: 100%;

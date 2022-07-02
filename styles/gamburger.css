@@ -4,6 +4,7 @@
   }
 }
 .burger-wrap {
+  position: fixed;
   display: none;
   right: -120%;
 }
@@ -17,13 +18,9 @@
   color: #fff;
   font-size: 1.8rem;
   right: 0;
+  display: block;
 }
 
-@media (max-width: 1199px) {
-  .burger-wrap {
-    display: block;
-  }
-}
 .burger-header {
   display: -webkit-box;
   display: -ms-flexbox;

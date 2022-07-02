@@ -67,7 +67,8 @@ address {
   margin-top: 0.5rem;
   cursor: pointer;
 }
-.contacts__title--light{
+
+.contacts__title--light {
   font-weight: normal;
   font-size: 2rem;
   font-weight: 600;
@@ -75,8 +76,7 @@ address {
   margin-top: 1.8rem;
   cursor: pointer;
   text-align: end;
-  
-  }
+}
 
 .contacts__phone {
   font-family: "Montserrat";
