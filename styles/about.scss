@@ -120,6 +120,16 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
+@media (max-width:400px){
+    .galery__item--2{
+        width: 15rem;
+    }
+}
+@media (max-width:360px){
+    .galery__item--2{
+        width: 13rem;
+    }
+}
 
 .galery__item--3{
     grid-column: 2/3;
@@ -129,9 +139,14 @@
     background-repeat: no-repeat;
     background-size: 100%;
 }
-@media (max-width:375px){
+@media (max-width:400px){
     .galery__item--3{
-    display: none;
+        width: 15rem;
+    }
+}
+@media (max-width:360px){
+    .galery__item--3{
+        width: 13rem;
     }
 }
 
