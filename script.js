@@ -54,10 +54,13 @@ button4.addEventListener('click', function () {
 const gamb = document.querySelector('#gamb');
 const burger = document.querySelector('#burg');
 const darkburg = document.querySelector('#gamb--dark');
+const body = document.querySelector('body');
 
 gamb.addEventListener('click', function (e) {
     e.preventDefault(e);
     burger.classList.add("open");
+    body.classList.add("scroll__off");
+    
 });
 
 
@@ -65,6 +68,7 @@ gamb.addEventListener('click', function (e) {
 darkburg.addEventListener('click', function (e){
     e.preventDefault(e);
     burger.classList.remove("open");
+    body.classList.remove("scroll__off");
 });
 
 //////////////// Burger menu list

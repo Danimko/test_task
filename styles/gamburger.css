@@ -11,10 +11,10 @@
 
 .burger-wrap.open {
   background-color: #212D55;
-  height: 100vh;
+  height: 110vh;
   width: 100vw;
   z-index: 10000;
-  position: fixed;
+  position: absolute;
   color: #fff;
   font-size: 1.8rem;
   right: 0;
