@@ -76,6 +76,27 @@
   cursor: pointer;
 }
 
+.rowdown {
+  content: url(../img/next_botom.svg);
+  display: inline-block;
+  margin-left: 5px;
+  width: 11px;
+  height: 11px;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotateX(0deg);
+          transform: rotateX(0deg);
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.rowdown.rotate {
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
+
 .burger-menu__sub-item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -94,7 +115,10 @@
 }
 
 .burger-menu__sub-list {
-  display: none;
+  height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .burger-menu__sub-list.on1 {
@@ -112,10 +136,35 @@
           align-items: flex-end;
   margin-top: 1rem;
   font-weight: 400;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  height: 100%;
+  opacity: 1;
+}
+
+.burger-menu__sub-item--yabl {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 1rem;
+  font-weight: 400;
+  margin-right: 20px;
 }
 
 .burger-menu__sub-list--yabl {
-  display: none;
+  height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .burger-menu__sub-list--yabl.on2 {
@@ -133,10 +182,18 @@
           align-items: flex-end;
   margin-top: 1rem;
   font-weight: 400;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  height: 100%;
+  opacity: 1;
+  margin-bottom: 1rem;
 }
 
 .burger-list--howbuy {
-  display: none;
+  height: 0;
+  opacity: 0;
+  -webkit-transition: all 0.3s linear;
+  transition: all 0.3s linear;
 }
 
 .burger-list--howbuy.on3 {
@@ -154,4 +211,24 @@
           align-items: flex-end;
   margin-top: 1rem;
   font-weight: 400;
+  height: 100%;
+  opacity: 1;
+}
+
+.burger-menu__item--howbuy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin-top: 1rem;
+  font-weight: 400;
+  margin-right: 20px;
 }

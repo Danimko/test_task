@@ -71,21 +71,28 @@ darkburg.addEventListener('click', function (e){
 
 const menu1 = document.querySelector('#menu1');
 const menu_item1 = document.querySelector(".burger-menu__sub-list");
+const row1 = document.querySelector("#rowdown1");
+
 
 menu1.addEventListener('click', function (){
     menu_item1.classList.toggle("on1");
+    row1.classList.toggle("rotate");
 });
 
 const menu2 = document.querySelector('#menu1-1');
 const menu_item2 = document.querySelector(".burger-menu__sub-list--yabl");
+const row2 = document.querySelector("#rowdown2");
 
 menu2.addEventListener('click', function (){
     menu_item2.classList.toggle("on2");
+    row2.classList.toggle("rotate");
 });
 
 const menu3 = document.querySelector('#menu2');
 const menu_item3 = document.querySelector(".burger-list--howbuy");
+const row3 = document.querySelector("#rowdown3");
 
 menu3.addEventListener('click', function (){
     menu_item3.classList.toggle("on3");
+    row3.classList.toggle("rotate");
 });
