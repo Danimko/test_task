@@ -62,7 +62,9 @@
     font-weight: 600;
     cursor: pointer;
 }
-
+.galery__link:active{ 
+    border: 1px solid #31BEF4
+}
 @media (max-width:820px){
     .galery__link{
     width: 90vw;
