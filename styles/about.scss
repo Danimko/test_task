@@ -81,15 +81,6 @@
     justify-content: center;
     }
 }
-
-@media (max-width:768px){
-    .galery{
-    display: -webkit-box;
-    flex-wrap: wrap;
-    }
-}
-
-
 @media (max-width:375px){
     .galery{
     display: block;

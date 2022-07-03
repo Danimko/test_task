@@ -55,11 +55,17 @@ const gamb = document.querySelector('#gamb');
 const burger = document.querySelector('#burg');
 const darkburg = document.querySelector('#gamb--dark');
 const body = document.querySelector('body');
+const hidden_hero = document.querySelector('.hero');
+const hidden_about = document.querySelector('.about');
+
 
 gamb.addEventListener('click', function (e) {
     e.preventDefault(e);
     burger.classList.add("open");
     body.classList.add("scroll__off");
+    hidden_hero.classList.add("hidden")
+    hidden_about.classList.add("hidden")
+
     
 });
 
@@ -69,6 +75,8 @@ darkburg.addEventListener('click', function (e){
     e.preventDefault(e);
     burger.classList.remove("open");
     body.classList.remove("scroll__off");
+    hidden_hero.classList.remove("hidden")
+    hidden_about.classList.remove("hidden")
 });
 
 //////////////// Burger menu list
