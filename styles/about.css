@@ -161,6 +161,11 @@
   height: 35.8rem;
 }
 
+@media (max-width: 768px) and (min-width: 435px) {
+  .galery__item--1 {
+    height: auto;
+  }
+}
 .galery__item--2 {
   -ms-grid-column: 2;
   -ms-grid-column-span: 1;
